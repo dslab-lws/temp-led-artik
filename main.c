@@ -5,7 +5,7 @@
 #define BUFSIZE 256
 #define MAX_DATA_SIZE 256
 #define PORT 10000
-#define IP_addr "192.168.0.48"
+#define IP_addr " " //"xxx.xxx.xxx.xxx"
 #define device_id "temp-led-artik"
 
 int sockfd;

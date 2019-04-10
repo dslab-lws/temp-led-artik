@@ -41,8 +41,8 @@
 #define SLSI_WIFI_SECURITY_OPEN   "open"
 #define SLSI_WIFI_SECURITY_WPA2_AES "wpa2_aes"
 #define NET_DEVNAME "wl1"
-#define SSID "D.S.Lab" //FIX
-#define PSK  "dslab123" //FIX
+#define SSID "" //FIX
+#define PSK  "" //FIX
 
 // Hexagon GPIO Pin number
 #define PIN_D2 46
