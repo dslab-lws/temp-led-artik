@@ -4,7 +4,7 @@
 
 -include ../makefile.init
 
-RM := rm -rf tinyara.bin tinyara_head.bin "udptest-temp.map"
+RM := rm -rf tinyara.bin tinyara_head.bin "temp-led-artik.map"
 
 # All of the sources participating in the build are defined here
 -include sources.mk
@@ -34,20 +34,20 @@ tinyara_head.bin \
 
 
 # All Target
-all: udptest-temp secondary-outputs
+all: temp-led-artik secondary-outputs
 
 # Tool invocations
-udptest-temp: $(OBJS) $(USER_OBJS)
+temp-led-artik: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARTIK GCC C Linker'
-	arm-none-eabi-ld  -TC:/ARTIK/SDK/A05x/v1.7.1/source/tinyara/build/configs/artik053/scripts/flash.ld -nostartfiles -nodefaultlibs -LC:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs -LC:/ARTIK/toolchains/gcc-arm-none-eabi/v4.9-2015q3/lib/gcc/arm-none-eabi/4.9.3 -Map="udptest-temp.map" --gc-sections --entry=__start C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs/arm_vectortab.o -o "udptest-temp" --start-group $(OBJS) $(USER_OBJS) $(LIBS) --end-group
+	arm-none-eabi-ld  -TC:/ARTIK/SDK/A05x/v1.7.1/source/tinyara/build/configs/artik053/scripts/flash.ld -nostartfiles -nodefaultlibs -LC:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs -LC:/ARTIK/toolchains/gcc-arm-none-eabi/v4.9-2015q3/lib/gcc/arm-none-eabi/4.9.3 -Map="temp-led-artik.map" --gc-sections --entry=__start C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs/arm_vectortab.o -o "temp-led-artik" --start-group $(OBJS) $(USER_OBJS) $(LIBS) --end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
-tinyara.bin: udptest-temp
+tinyara.bin: temp-led-artik
 	@echo 'Invoking: ARTIK GCC Create Flash Image'
-	arm-none-eabi-objcopy -O binary "udptest-temp"  "tinyara.bin"
+	arm-none-eabi-objcopy -O binary "temp-led-artik"  "tinyara.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 
@@ -59,7 +59,7 @@ tinyara_head.bin: tinyara.bin
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(ASM_DEPS)$(S_UPPER_DEPS)$(SECONDARY_HEADBIN)$(C_DEPS) udptest-temp
+	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(ASM_DEPS)$(S_UPPER_DEPS)$(SECONDARY_HEADBIN)$(C_DEPS) temp-led-artik
 	-@echo ' '
 
 post-build:

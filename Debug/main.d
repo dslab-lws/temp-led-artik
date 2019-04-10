@@ -1,4 +1,4 @@
-main.o: ../main.c \
+main.o: ../main.c ../A053BasicKit.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stdio.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/config.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/sys/types.h \
@@ -36,8 +36,10 @@ main.o: ../main.c \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/syslog.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/mm/gran.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/net/net.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stdlib.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/string.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stddef.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/ctype.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/sys/socket.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/lwip/sockets.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/lwip/opt.h \
@@ -66,10 +68,20 @@ main.o: ../main.c \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/lwip/sys.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/lwip/arch/sys_arch.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/netinet/in.h \
- C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/arpa/inet.h ../pwm.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/arpa/inet.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/gpio.h \
  C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/pwm.h \
- C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/fixedmath.h ../gpio.h \
- C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/gpio.h
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/fixedmath.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/analog/adc.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/spi/spi.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/analog/ioctl.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/if.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/wifi/slsi_wifi_api.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/dhcpc.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/mqtt_api.h \
+ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/ntpclient.h
+
+../A053BasicKit.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stdio.h:
 
@@ -145,9 +157,13 @@ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/mm/gran.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/net/net.h:
 
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stdlib.h:
+
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/string.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/stddef.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/ctype.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/sys/socket.h:
 
@@ -207,12 +223,24 @@ C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/netinet/in.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/arpa/inet.h:
 
-../pwm.h:
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/gpio.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/pwm.h:
 
 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/fixedmath.h:
 
-../gpio.h:
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/analog/adc.h:
 
-C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/gpio.h:
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/spi/spi.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/tinyara/analog/ioctl.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/net/if.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/wifi/slsi_wifi_api.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/dhcpc.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/mqtt_api.h:
+
+C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/include/apps/netutils/ntpclient.h:

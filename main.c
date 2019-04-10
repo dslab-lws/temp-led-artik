@@ -1,18 +1,11 @@
-#include <stdio.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <unistd.h>
-#include"pwm.h"
-#include"gpio.h"
+#include "A053BasicKit.h"
+
 
 #define BACKLOG 10
 #define BUFSIZE 256
 #define MAX_DATA_SIZE 256
 #define PORT 10000
-#define IP_addr "192.168.0.21"
+#define IP_addr "192.168.0.48"
 #define device_id "temp-led-artik"
 
 int sockfd;
@@ -82,8 +75,69 @@ int main() {
 	char h[100], t[100];
 	char str[100] = {0, };
 	int i;
+	bool wifiConnected = false;
 
-	wifi_main();
+		while(!wifiConnected)
+		{
+			ret = mkfifo(CONFIG_WPA_CTRL_FIFO_DEV_REQ,CONFIG_WPA_CTRL_FIFO_MK_MODE);
+			if (ret != 0 && ret != -EEXIST)
+			{
+				printf("mkfifo error for %s: %s",CONFIG_WPA_CTRL_FIFO_DEV_REQ,strerror(errno));
+			}
+			ret = mkfifo(CONFIG_WPA_CTRL_FIFO_DEV_CFM,CONFIG_WPA_CTRL_FIFO_MK_MODE);
+			if (ret != 0 && ret != -EEXIST)
+			{
+				printf("mkfifo error for %s: %s",CONFIG_WPA_CTRL_FIFO_DEV_CFM,strerror(errno));
+			}
+
+			ret = mkfifo(CONFIG_WPA_MONITOR_FIFO_DEV,CONFIG_WPA_CTRL_FIFO_MK_MODE);
+			if (ret != 0 && ret != -EEXIST)
+			{
+				printf("mkfifo error for %s: %s",CONFIG_WPA_MONITOR_FIFO_DEV,strerror(errno));
+			}
+
+			if (start_wifi_interface() == SLSI_STATUS_ERROR)
+			{
+				printf("Connect Wi-Fi failed. Try Again.\n");
+			}
+			else if(start_wifi_interface() == SLSI_STATUS_SUCCESS)
+			{
+				wifiConnected = true;
+			}
+		}
+
+		printf("Connect to Wi-Fi success\n");
+
+		bool ipObtained = false;
+
+		printf("Get IP address\n");
+
+			struct dhcpc_state state;
+			void *dhcp_handle;
+
+			while(!ipObtained)
+			{
+				dhcp_handle = dhcpc_open(NET_DEVNAME);
+				ret = dhcpc_request(dhcp_handle, &state);
+				dhcpc_close(dhcp_handle);
+
+				if (ret != OK)
+				{
+					printf("Failed to get IP address\n");
+					printf("Try again\n");
+					sleep(1);
+				}
+				else
+				{
+					ipObtained = true;
+				}
+			}
+			netlib_set_ipv4addr(NET_DEVNAME, &state.ipaddr);
+			netlib_set_ipv4netmask(NET_DEVNAME, &state.netmask);
+			netlib_set_dripv4addr(NET_DEVNAME, &state.default_router);
+
+			printf("IP address  %s\n", inet_ntoa(state.ipaddr));
+
 
 	printf("Create the socket...\n");
     if((sockfd=socket(AF_INET, SOCK_DGRAM, 0)) == -1) {

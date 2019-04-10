@@ -5,33 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../._main.c \
-../LWIPServer.c \
-../adc.c \
-../gpio.c \
-../main.c \
-../pwm.c \
-../wifi.c \
-../wifiClient.c 
+../A053BasicKit.c \
+../main.c 
 
 OBJS += \
 ./._main.o \
-./LWIPServer.o \
-./adc.o \
-./gpio.o \
-./main.o \
-./pwm.o \
-./wifi.o \
-./wifiClient.o 
+./A053BasicKit.o \
+./main.o 
 
 C_DEPS += \
 ./._main.d \
-./LWIPServer.d \
-./adc.d \
-./gpio.d \
-./main.d \
-./pwm.d \
-./wifi.d \
-./wifiClient.d 
+./A053BasicKit.d \
+./main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
