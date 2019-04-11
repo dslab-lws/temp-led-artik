@@ -4,7 +4,7 @@ environment/project/com.samsung.artik.cc.target.elf.debug.246579082/ARTIK_PRE_CO
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/ARTIK_PRE_CONFIGURATION/value=A053/extra
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.CR4.FLASH.TIME.DEBUG/delimiter=;
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.CR4.FLASH.TIME.DEBUG/operation=replace
-environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.CR4.FLASH.TIME.DEBUG/value=1554874932996
+environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.CR4.FLASH.TIME.DEBUG/value=1554949231819
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.SYSTEM.FLASHED.DEBUG/delimiter=;
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.SYSTEM.FLASHED.DEBUG/operation=replace
 environment/project/com.samsung.artik.cc.target.elf.debug.246579082/PROJECT.SYSTEM.FLASHED.DEBUG/value=1
@@ -24,7 +24,7 @@ environment/project/com.samsung.artik.cc.target.elf.release.1268686478/ARTIK_PRE
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/ARTIK_PRE_CONFIGURATION/value=A053/extra
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.CR4.FLASH.TIME.DEBUG/delimiter=;
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.CR4.FLASH.TIME.DEBUG/operation=replace
-environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.CR4.FLASH.TIME.DEBUG/value=1554874932996
+environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.CR4.FLASH.TIME.DEBUG/value=1554949231819
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.SYSTEM.FLASHED.DEBUG/delimiter=;
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.SYSTEM.FLASHED.DEBUG/operation=replace
 environment/project/com.samsung.artik.cc.target.elf.release.1268686478/PROJECT.SYSTEM.FLASHED.DEBUG/value=1

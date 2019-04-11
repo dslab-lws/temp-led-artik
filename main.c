@@ -5,8 +5,8 @@
 #define BUFSIZE 256
 #define MAX_DATA_SIZE 256
 #define PORT 10000
-#define IP_addr " " //"xxx.xxx.xxx.xxx"
-#define device_id "temp-led-artik"
+#define IP_addr "000.000.000.000" //Gateway IP Address
+#define device_id "temp-led-artik" //Device ID
 
 int sockfd;
 int ret,len;
@@ -15,6 +15,27 @@ char sendBuffer[BUFSIZE], recvBuffer[BUFSIZE];
 int recvLen, servLen;
 char message[100] = {0,};
 
+void RecvMessage(int Flag){
+
+	if((recvLen=recvfrom(sockfd, recvBuffer, BUFSIZE-1, Flag, (struct sockaddr*)&servAddr,(socklen_t*)&servAddr)) > 0) {
+
+	    recvBuffer[recvLen] = '\0';
+
+	    printf("Recevied: %s\n", recvBuffer);
+
+		if (strcmp(recvBuffer,"LEDON") == 0 ){
+			gpio_write(47,1);
+			printf("*************************LED Is On*************************\n");
+		}
+
+		if (strcmp(recvBuffer,"LEDOFF") == 0 ){
+			gpio_write(47,0);
+			printf("*************************LED Is Off*************************\n");
+		}
+
+	}
+
+}
 
 void MakeMessage(char *action, char *data){
 	int i;
@@ -49,22 +70,14 @@ void MakeMessage(char *action, char *data){
 	ret = sendto(sockfd, message, len , 0,  ( struct sockaddr*)&servAddr, sizeof( servAddr));
 
 	if (ret == -1) {
-		printf("[Error] lwip_send(1),%d\n",errno);
+		printf("[Error] sendto(),%d\n",errno);
 	}
 
 	printf("send_data: %s\n", message);
 
-	if((recvLen=recvfrom(sockfd, recvBuffer, BUFSIZE-1, 0, (struct sockaddr*)&servAddr,(socklen_t*)&servAddr)) == -1) {
-	 	   printf("[Error] recvfrom(),%d\n",errno);
-	       exit(1);
-	    }
-	    recvBuffer[recvLen] = '\0';
+	RecvMessage(0);
 
-	    printf("Recevied: %s\n", recvBuffer);
-
-	    strcpy(recvBuffer,'\0');
-
-	    up_mdelay(100);
+	up_mdelay(100);
 
 
 
@@ -72,8 +85,8 @@ void MakeMessage(char *action, char *data){
 
 int main() {
 
-	char h[100], t[100];
-	char str[100] = {0, };
+	char temp[100];
+	char str[100];
 	int i;
 	bool wifiConnected = false;
 
@@ -160,39 +173,21 @@ int main() {
 	while(1){
 
 		for(i = 0 ; i < 100 ; i++){
-			h[i] = 0;
-			t[i] = 0;
+			temp[i] = 0;
 			str[i] = 0;
 
-			recvLen=recvfrom(sockfd, recvBuffer, BUFSIZE-1, MSG_DONTWAIT, (struct sockaddr*)&servAddr,(socklen_t*)&servAddr);
+			RecvMessage(MSG_DONTWAIT);
 
-				if(recvLen > 0){
-
-					recvBuffer[recvLen] = '\0';
-
-					printf("Recevied: %s\n", recvBuffer);
-
-					if (strcmp(recvBuffer,"LEDON") == 0 ){
-						gpio_write(47,1);
-						printf("*************************LED Is On*************************\n");
-					}
-					if (strcmp(recvBuffer,"LEDOFF") == 0 ){
-						gpio_write(47,0);
-						printf("*************************LED Is Off*************************\n");
-					}
-
-				}
-
-				up_mdelay(30);
+			up_mdelay(30);
 		}
 
 
 
 
 
-		sprintf(t, "%d", read_adc(0)*330/4096-50);
+		sprintf(temp, "%d", read_adc(0)*330/4096-50);
 		strcpy(str,"temp=");
-		strcat(str,t);
+		strcat(str,temp);
 
 
 		MakeMessage("event",str);
