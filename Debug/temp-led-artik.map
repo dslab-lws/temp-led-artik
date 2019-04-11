@@ -12339,363 +12339,363 @@ Linker script and memory map
  .rodata.__func__.6653
                 0x0416c690        0x9 ./A053BasicKit.o
  *fill*         0x0416c699        0x3 
- .rodata        0x0416c69c      0x25e ./main.o
+ .rodata        0x0416c69c      0x25a ./main.o
  .rodata.str1.1
-                0x0416c8fa      0x502 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(slsi_wifi_api.o)
+                0x0416c8f6      0x502 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(slsi_wifi_api.o)
                                 0x5d4 (size before relaxing)
  .rodata.str1.1
-                0x0416cdfc      0x148 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(slsi_wifi_utils.o)
+                0x0416cdf8      0x148 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(slsi_wifi_utils.o)
                                 0x164 (size before relaxing)
  .rodata.g_dhcpc_xid
-                0x0416cf44        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dhcpc.o)
+                0x0416cf40        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dhcpc.o)
  .rodata.magic_cookie
-                0x0416cf48        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dhcpc.o)
+                0x0416cf44        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dhcpc.o)
  .rodata.str1.1
-                0x0416cf4c      0x115 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_ctrl.o)
+                0x0416cf48      0x115 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_ctrl.o)
                                 0x11c (size before relaxing)
  .rodata.str1.1
-                0x0416d061      0x6a6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_common.o)
+                0x0416d05d      0x6a6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_common.o)
                                 0x6d9 (size before relaxing)
  .rodata.str1.1
-                0x0416d707       0x50 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(common.o)
+                0x0416d703       0x50 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(common.o)
                                  0x82 (size before relaxing)
  .rodata.str1.1
-                0x0416d757       0x2f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(os_tinyara.o)
+                0x0416d753       0x2f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(os_tinyara.o)
                                  0x3b (size before relaxing)
  .rodata.str1.1
-                0x0416d786      0x246 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_debug.o)
+                0x0416d782      0x246 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_debug.o)
                                 0x252 (size before relaxing)
  .rodata.str1.1
-                0x0416d9cc       0x2f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpabuf.o)
+                0x0416d9c8       0x2f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpabuf.o)
  .rodata.str1.1
-                0x0416d9fb      0x711 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(main.o)
+                0x0416d9f7      0x711 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(main.o)
                                 0x72e (size before relaxing)
- .rodata        0x0416e10c       0x4c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+ .rodata        0x0416e108       0x4c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
  .rodata.wpa_supplicant_full_license3
-                0x0416e158        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x0416e158                wpa_supplicant_full_license3
+                0x0416e154        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0416e154                wpa_supplicant_full_license3
  .rodata.wpa_supplicant_license
-                0x0416e15c        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x0416e15c                wpa_supplicant_license
+                0x0416e158        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0416e158                wpa_supplicant_license
  .rodata.wpa_supplicant_full_license1
-                0x0416e160        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x0416e160                wpa_supplicant_full_license1
+                0x0416e15c        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0416e15c                wpa_supplicant_full_license1
  .rodata.wpa_supplicant_version
-                0x0416e164        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x0416e164                wpa_supplicant_version
+                0x0416e160        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0416e160                wpa_supplicant_version
  .rodata.str1.1
-                0x0416e168     0x2531 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0416e164     0x2531 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
                                0x25cf (size before relaxing)
- *fill*         0x04170699        0x3 
+ *fill*         0x04170695        0x3 
  .rodata.wpa_supplicant_full_license4
-                0x0417069c        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x0417069c                wpa_supplicant_full_license4
+                0x04170698        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x04170698                wpa_supplicant_full_license4
  .rodata.wpa_supplicant_full_license5
-                0x041706a0        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x041706a0                wpa_supplicant_full_license5
+                0x0417069c        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x0417069c                wpa_supplicant_full_license5
  .rodata.CSWTCH.194
-                0x041706a4       0x28 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x041706a0       0x28 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
  .rodata.CSWTCH.245
-                0x041706cc        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x041706c8        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
  .rodata.wpa_supplicant_full_license2
-                0x041706d4        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
-                0x041706d4                wpa_supplicant_full_license2
+                0x041706d0        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_supplicant.o)
+                0x041706d0                wpa_supplicant_full_license2
  .rodata.str1.1
-                0x041706d8      0x15d C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(notify.o)
+                0x041706d4      0x15d C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(notify.o)
                                 0x16f (size before relaxing)
  .rodata.str1.1
-                0x04170835      0x11e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpas_glue.o)
+                0x04170831      0x11e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpas_glue.o)
                                 0x13b (size before relaxing)
  .rodata.str1.1
-                0x04170953       0xfd C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(blacklist.o)
+                0x0417094f       0xfd C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(blacklist.o)
  .rodata.up_to_ac
-                0x04170a50        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
+                0x04170a4c        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
  .rodata.str1.1
-                0x04170a58      0xbd2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
+                0x04170a54      0xbd2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
                                 0xbd9 (size before relaxing)
- *fill*         0x0417162a        0x2 
+ *fill*         0x04171626        0x2 
  .rodata.CSWTCH.30
-                0x0417162c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
+                0x04171628       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
  .rodata.CSWTCH.28
-                0x0417163c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
+                0x04171638       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm_ac.o)
  .rodata.str1.1
-                0x0417164c      0xd31 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config_file.o)
+                0x04171648      0xd31 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config_file.o)
                                 0xd95 (size before relaxing)
- *fill*         0x0417237d        0x3 
+ *fill*         0x04172379        0x3 
  .rodata.CSWTCH.381
-                0x04172380        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
+                0x0417237c        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
  .rodata.ciphers_group_mgmt
-                0x0417238c       0x30 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
+                0x04172388       0x30 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
  .rodata.CSWTCH.284
-                0x041723bc       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
+                0x041723b8       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
  .rodata.str1.1
-                0x041723d4     0x1984 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
+                0x041723d0     0x1984 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
                                0x1d15 (size before relaxing)
  .rodata.ciphers
-                0x04173d58       0x60 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
+                0x04173d54       0x60 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface.o)
  .rodata.str1.1
-                0x04173db8      0x493 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_fifo.o)
+                0x04173db4      0x493 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_fifo.o)
                                 0x4f9 (size before relaxing)
- *fill*         0x0417424b        0x1 
- .rodata        0x0417424c       0x38 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features_common.o)
+ *fill*         0x04174247        0x1 
+ .rodata        0x04174248       0x38 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features_common.o)
  .rodata.str1.1
-                0x04174284      0x353 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features_common.o)
- *fill*         0x041745d7        0x1 
+                0x04174280      0x353 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features_common.o)
+ *fill*         0x041745d3        0x1 
  .rodata.wpa_drivers
-                0x041745d8        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drivers.o)
-                0x041745d8                wpa_drivers
+                0x041745d4        0x8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drivers.o)
+                0x041745d4                wpa_drivers
  .rodata.CSWTCH.6
-                0x041745e0       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
+                0x041745dc       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
  .rodata.str1.1
-                0x041745f8      0x342 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
+                0x041745f4      0x342 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
                                 0x3c5 (size before relaxing)
- *fill*         0x0417493a        0x2 
+ *fill*         0x04174936        0x2 
  .rodata.CSWTCH.4
-                0x0417493c       0xd4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
+                0x04174938       0xd4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_common.o)
  .rodata.wpa_driver_t20_ops
-                0x04174a10      0x1f0 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_t20.o)
-                0x04174a10                wpa_driver_t20_ops
+                0x04174a0c      0x1f0 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_t20.o)
+                0x04174a0c                wpa_driver_t20_ops
  .rodata.str1.1
-                0x04174c00       0x19 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_t20.o)
+                0x04174bfc       0x19 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(driver_t20.o)
  .rodata.str1.1
-                0x04174c19       0xec C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eloop.o)
+                0x04174c15       0xec C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eloop.o)
                                  0xf1 (size before relaxing)
- *fill*         0x04174d05        0x3 
+ *fill*         0x04174d01        0x3 
  .rodata.CSWTCH.34
-                0x04174d08        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eloop.o)
+                0x04174d04        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eloop.o)
  .rodata.base64_table
-                0x04174d14       0x41 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(base64.o)
+                0x04174d10       0x41 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(base64.o)
  .rodata.str1.1
-                0x04174d55      0x253 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap.o)
+                0x04174d51      0x253 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap.o)
  .rodata.__func__.12758
-                0x04174fa8       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04174fa4       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12492
-                0x04174fbe       0x17 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04174fba       0x17 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12877
-                0x04174fd5       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04174fd1       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12496
-                0x04174feb       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04174fe7       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.str1.1
-                0x04174ffb      0xd5b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04174ff7      0xd5b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
                                 0xd9a (size before relaxing)
  .rodata.__func__.12500
-                0x04175d56       0x1e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175d52       0x1e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12504
-                0x04175d74       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175d70       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12662
-                0x04175d8a       0x21 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175d86       0x21 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12679
-                0x04175dab       0x13 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
- *fill*         0x04175dbe        0x2 
+                0x04175da7       0x13 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+ *fill*         0x04175dba        0x2 
  .rodata.CSWTCH.86
-                0x04175dc0       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175dbc       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12692
-                0x04175ddc       0x17 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175dd8       0x17 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12684
-                0x04175df3       0x19 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175def       0x19 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.__func__.12579
-                0x04175e0c       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
+                0x04175e08       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hostapd.o)
  .rodata.str1.1
-                0x04175e1e      0x2ed C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(beacon.o)
+                0x04175e1a      0x2ed C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(beacon.o)
                                 0x2ee (size before relaxing)
  .rodata.str1.1
-                0x0417610b       0x51 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_drv_ops.o)
+                0x04176107       0x51 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_drv_ops.o)
  .rodata.txq_be.9560
-                0x0417615c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x04176158       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.txq_vo.9562
-                0x0417616c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x04176168       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.ac_bk.9555
-                0x0417617c       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x04176178       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.str1.1
-                0x04176190      0x5af C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x0417618c      0x5af C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
                                 0x5b1 (size before relaxing)
- *fill*         0x0417673f        0x1 
+ *fill*         0x0417673b        0x1 
  .rodata.txq_bk.9559
-                0x04176740       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x0417673c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.txq_vi.9561
-                0x04176750       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x0417674c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.ac_vi.9557
-                0x04176760       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x0417675c       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.ac_be.9556
-                0x04176774       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x04176770       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.ac_vo.9558
-                0x04176788       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
+                0x04176784       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_config.o)
  .rodata.str1.1
-                0x0417679c       0x38 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(utils.o)
+                0x04176798       0x38 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(utils.o)
  .rodata.__func__.13029
-                0x041767d4       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x041767d0       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.__func__.13041
-                0x041767e8       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x041767e4       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.str1.1
-                0x041767fe      0x91e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x041767fa      0x91e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
                                 0x93d (size before relaxing)
  .rodata.__func__.12939
-                0x0417711c        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x04177118        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.__func__.13001
-                0x04177128        0xb C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x04177124        0xb C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.__func__.12956
-                0x04177133       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x0417712f       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.__func__.13061
-                0x04177143       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
+                0x0417713f       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sta_info.o)
  .rodata.str1.1
-                0x04177155      0x1c8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_mlme.o)
+                0x04177151      0x1c8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_mlme.o)
                                 0x1d0 (size before relaxing)
- *fill*         0x0417731d        0x3 
+ *fill*         0x04177319        0x3 
  .rodata.CSWTCH.1
-                0x04177320        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_mlme.o)
+                0x0417731c        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_mlme.o)
  .rodata.str1.1
-                0x0417732c      0x192 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_glue.o)
+                0x04177328      0x192 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_glue.o)
                                 0x1c8 (size before relaxing)
  .rodata.__func__.12141
-                0x041774be       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_glue.o)
- .rodata        0x041774da        0x6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
+                0x041774ba       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_glue.o)
+ .rodata        0x041774d6        0x6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
  .rodata.__func__.13542
-                0x041774e0       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
+                0x041774dc       0x18 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
  .rodata.str1.1
-                0x041774f8      0xf8a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
+                0x041774f4      0xf8a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_1x.o)
                                 0xfd8 (size before relaxing)
  .rodata.CSWTCH.5
-                0x04178482        0x3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drv_callbacks.o)
+                0x0417847e        0x3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drv_callbacks.o)
  .rodata.str1.1
-                0x04178485      0x2c6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drv_callbacks.o)
+                0x04178481      0x2c6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(drv_callbacks.o)
                                 0x2f8 (size before relaxing)
  .rodata.str1.1
-                0x0417874b       0x24 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss_load.o)
+                0x04178747       0x24 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss_load.o)
  .rodata.str1.1
-                0x0417876f      0x3f7 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_ap.o)
+                0x0417876b      0x3f7 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_ap.o)
                                 0x412 (size before relaxing)
- *fill*         0x04178b66        0x2 
+ *fill*         0x04178b62        0x2 
  .rodata.CSWTCH.15
-                0x04178b68       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_ap.o)
+                0x04178b64       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ctrl_iface_ap.o)
  .rodata.str1.1
-                0x04178b7c     0x1a8d C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth.o)
+                0x04178b78     0x1a8d C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth.o)
                                0x1ac4 (size before relaxing)
  .rodata.str1.1
-                0x0417a609      0x223 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_ie.o)
+                0x0417a605      0x223 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_auth_ie.o)
                                 0x22b (size before relaxing)
  .rodata.str1.1
-                0x0417a82c      0x11a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(pmksa_cache_auth.o)
+                0x0417a828      0x11a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(pmksa_cache_auth.o)
  .rodata.str1.1
-                0x0417a946     0x10f3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11.o)
+                0x0417a942     0x10f3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11.o)
                                0x116d (size before relaxing)
- *fill*         0x0417ba39        0x3 
- .rodata        0x0417ba3c       0x54 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
+ *fill*         0x0417ba35        0x3 
+ .rodata        0x0417ba38       0x54 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
  .rodata.str1.1
-                0x0417ba90      0x6b0 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
+                0x0417ba8c      0x6b0 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
                                 0x6b3 (size before relaxing)
  .rodata.__func__.11018
-                0x0417c140       0x1b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
+                0x0417c13c       0x1b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
  .rodata.__func__.10975
-                0x0417c15b       0x21 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
- .rodata        0x0417c17c       0x30 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
+                0x0417c157       0x21 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(dfs.o)
+ .rodata        0x0417c178       0x30 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
  .rodata.str1.1
-                0x0417c1ac      0x884 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
+                0x0417c1a8      0x884 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
                                 0x903 (size before relaxing)
  .rodata.CSWTCH.40
-                0x0417ca30       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
+                0x0417ca2c       0x10 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(hw_features.o)
  .rodata.str1.1
-                0x0417ca40      0x19a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_list.o)
+                0x0417ca3c      0x19a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ap_list.o)
  .rodata.str1.1
-                0x0417cbda      0x3b6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm.o)
+                0x0417cbd6      0x3b6 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wmm.o)
                                 0x3b7 (size before relaxing)
  .rodata.__func__.11053
-                0x0417cf90        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
+                0x0417cf8c        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
  .rodata.str1.1
-                0x0417cf9e      0x40c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
+                0x0417cf9a      0x40c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
                                 0x437 (size before relaxing)
  .rodata.__func__.11058
-                0x0417d3aa       0x11 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
+                0x0417d3a6       0x11 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
  .rodata.__func__.11005
-                0x0417d3bb       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
+                0x0417d3b7       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(ieee802_11_ht.o)
  .rodata.str1.1
-                0x0417d3d7      0xaca C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eapol_auth_sm.o)
+                0x0417d3d3      0xaca C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eapol_auth_sm.o)
                                 0xadb (size before relaxing)
- *fill*         0x0417dea1        0x3 
+ *fill*         0x0417de9d        0x3 
  .rodata.eapol_cb
-                0x0417dea4       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eapol_auth_sm.o)
+                0x0417dea0       0x1c C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eapol_auth_sm.o)
  .rodata.str1.1
-                0x0417dec0      0xcb3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_server.o)
+                0x0417debc      0xcb3 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_server.o)
                                 0xcd6 (size before relaxing)
  .rodata.str1.1
-                0x0417eb73        0x9 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_server_methods.o)
+                0x0417eb6f        0x9 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_server_methods.o)
                                  0x11 (size before relaxing)
  .rodata.str1.1
-                0x0417eb7c       0x8b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_common.o)
+                0x0417eb78       0x8b C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(eap_common.o)
  .rodata.str1.1
-                0x0417ec07     0x1732 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa.o)
+                0x0417ec03     0x1732 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa.o)
                                0x17b8 (size before relaxing)
  .rodata.str1.1
-                0x04180339       0x53 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_ie.o)
+                0x04180335       0x53 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_ie.o)
                                  0xe6 (size before relaxing)
- .rodata        0x0418038c        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
+ .rodata        0x04180388        0xc C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
  .rodata.__func__.7941
-                0x04180398       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
+                0x04180394       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
  .rodata.str1.1
-                0x041803ad      0x27e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
+                0x041803a9      0x27e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
                                 0x2f6 (size before relaxing)
  .rodata.__func__.7916
-                0x0418062b       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
+                0x04180627       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(wpa_common.o)
  .rodata.__func__.9811
-                0x04180640       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
+                0x0418063c       0x12 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
  .rodata.str1.1
-                0x04180652      0x10f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
+                0x0418064e      0x10f C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
  .rodata.__func__.9850
-                0x04180761       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
- .rodata.Td4s   0x04180777      0x100 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
-                0x04180777                Td4s
- .rodata.rcons  0x04180877        0xa C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
-                0x04180877                rcons
- *fill*         0x04180881        0x3 
- .rodata.Td0    0x04180884      0x400 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
-                0x04180884                Td0
- .rodata.Te0    0x04180c84      0x400 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
-                0x04180c84                Te0
- .rodata        0x04181084        0x2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sha1-internal.o)
+                0x0418075d       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(l2_packet_tinyara.o)
+ .rodata.Td4s   0x04180773      0x100 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
+                0x04180773                Td4s
+ .rodata.rcons  0x04180873        0xa C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
+                0x04180873                rcons
+ *fill*         0x0418087d        0x3 
+ .rodata.Td0    0x04180880      0x400 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
+                0x04180880                Td0
+ .rodata.Te0    0x04180c80      0x400 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(aes-internal.o)
+                0x04180c80                Te0
+ .rodata        0x04181080        0x2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sha1-internal.o)
  .rodata.str1.1
-                0x04181086        0x2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sha1-internal.o)
+                0x04181082        0x2 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(sha1-internal.o)
  .rodata.ac_vo.10779
-                0x04181088       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x04181084       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.ac_vi.10778
-                0x0418109c       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x04181098       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.ac_bk.10776
-                0x041810b0       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x041810ac       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.ac_be.10777
-                0x041810c4       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x041810c0       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.ssid_fields
-                0x041810d8      0x480 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x041810d4      0x480 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.str1.1
-                0x04181558      0xcc4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x04181554      0xcc4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
                                 0xfe1 (size before relaxing)
  .rodata.global_fields
-                0x0418221c      0x6c8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
+                0x04182218      0x6c8 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(config.o)
  .rodata.str1.1
-                0x041828e4      0xa9a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(scan.o)
+                0x041828e0      0xa9a C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(scan.o)
                                 0xabb (size before relaxing)
  .rodata.__func__.11926
-                0x0418337e        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+                0x0418337a        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
  .rodata.__func__.11886
-                0x0418338c       0x1e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+                0x04183388       0x1e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
  .rodata.str1.1
-                0x041833aa      0x26e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+                0x041833a6      0x26e C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
                                 0x27e (size before relaxing)
  .rodata.__func__.11894
-                0x04183618       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+                0x04183614       0x16 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
  .rodata.__func__.12003
-                0x0418362e       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+                0x0418362a       0x15 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
  .rodata.__func__.12021
-                0x04183643        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
- .rodata        0x04183651        0x9 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
+                0x0418363f        0xe C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(bss.o)
+ .rodata        0x0418364d        0x9 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
  .rodata.str1.1
-                0x0418365a     0x1977 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
+                0x04183656     0x1977 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
                                0x1a01 (size before relaxing)
- *fill*         0x04184fd1        0x3 
+ *fill*         0x04184fcd        0x3 
  .rodata.CSWTCH.116
-                0x04184fd4       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
+                0x04184fd0       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
  .rodata.CSWTCH.118
-                0x04184fe8       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
+                0x04184fe4       0x14 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(events.o)
  .rodata.str1.1
-                0x04184ffc       0xca C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(tkip_countermeasures.o)
- *fill*         0x041850c6        0xa 
+                0x04184ff8       0xca C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libapps.a(tkip_countermeasures.o)
+ *fill*         0x041850c2        0xe 
  .rodata        0x041850d0        0x4 C:/ARTIK/SDK/A05x/v1.7.1/libsdk/A053/extra/libs\libarch.a(arm_head.o)
                 0x041850d0                g_idle_topstack
  .rodata.str1.1
